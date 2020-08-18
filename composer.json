@@ -20,6 +20,12 @@
         "orchestra/testbench": "^5.0",
         "phpunit/phpunit": "^8.0"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/tojorodialson/hc-laravel.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Codise\\Hclaravel\\": "src"
