@@ -1,12 +1,8 @@
 {
     "name": "codise/hclaravel",
     "description": "The service provide hcaptcha for Laravel",
-    "keywords": [
-        "codise",
-        "captcha",
-        "laravel",
-        "hcaptcha"
-    ],
+    "keywords": ["codise", "captcha", "laravel", "hcaptcha"],
+    "type": "library",
     "homepage": "https://github.com/tojorodialson/hc-laravel",
     "license": "MIT",
     "authors": [
@@ -26,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Codise\\Hclaravel\\": "src/"
+            "Codise\\Hclaravel\\": "src"
         }
     },
     "autoload-dev": {
