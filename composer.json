@@ -7,8 +7,6 @@
         "laravel",
         "hcaptcha"
     ],
-    "type": "library",
-    "version": "1.0",
     "homepage": "https://github.com/tojorodialson/hc-laravel",
     "license": "MIT",
     "authors": [
@@ -17,8 +15,7 @@
             "email": "contact@rtojo.me"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "minimum-stability": "stable",
     "require": {
         "php": "^7.1",
         "illuminate/support": "^7.0"
