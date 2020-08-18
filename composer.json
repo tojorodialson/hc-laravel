@@ -22,8 +22,8 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "https://github.com/tojorodialson/hc-laravel.git"
+            "type": "vcs",
+            "url": "https://github.com/tojorodialson/hc-laravel"
         }
     ],
     "autoload": {
