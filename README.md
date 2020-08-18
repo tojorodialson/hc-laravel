@@ -13,13 +13,21 @@ HC Laravel is a package using hcaptcha for stopping bots ([hcaptcha.com](https:/
 
     php artisan vendor:publish --provider="Codise\Hclaravel\HcaptchaServiceProvider" --tag="config"
    
+   
 Configure **hcaptcha.php** in config folder.  Add in environment `.env` variable the key of captcha
 
-**Configure aliases**
-Add in `config/app.php` the follow line
 
+**Configure providers and aliases**
+
+Add in `config/app.php` the follow line
+		
+
+    'providers'  =>  [
+    	Codise\Hclaravel\HcaptchaServiceProvider::class,
+    ]
+    
     'aliases' => [
-    	'Hcaptcha'  =>  Codise\Hclaravel\Hcaptcha::class
+        'Hcaptcha'  =>  Codise\Hclaravel\Hcaptcha::class
     ]
 
 ## Usage
@@ -27,6 +35,7 @@ Add in `config/app.php` the follow line
 This package allows simply to use the captcha on your project without too much effort.
 
 **Account**
+
 Create an account on https://www.hcaptcha.com for having `secret_key` and `site_key`
 
 **Blade view**
@@ -53,3 +62,4 @@ If you have any suggestion, open issue or you can contribute
 
 
 If you like my project give me a **[coffee](https://www.patreon.com/tojorodialson)** 
+
