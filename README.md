@@ -50,7 +50,7 @@ Create an account on https://www.hcaptcha.com for having `secret_key` and `site_
      $response = Hcaptcha::verify($request->get('h-captcha-response'));
      
      //add condition for response
-     if($response){
+     if($response->success){
 	     $msg = "Robot verification success";
      }else{
 	     $msg = "Robot verification failed";

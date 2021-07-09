@@ -3,6 +3,7 @@
 namespace Codise\Hclaravel;
 
 use Illuminate\Support\Facades\Http;
+use Response;
 use GuzzleHttp\Client;
 
 class Hcaptcha
@@ -24,7 +25,7 @@ class Hcaptcha
             $json = json_decode($body);
             return $json;
         } catch(\Exception $e) {
-            return response()->json(['error' => $e->getMessage()]);
+            return Response::json(['error' => $e->getMessage()]);
         }
     }
 }
