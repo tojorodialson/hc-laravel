@@ -20,14 +20,9 @@ class Hcaptcha
 
         try {
             $res =  $client->request('POST', 'https://hcaptcha.com/siteverify', $data);
-
-            $res =  response()->json([
-                        'status'    => $res->getStatusCode(),
-                        'message'   => $res->getReasonPhrase()
-                    ]);
-            $json = json_encode($res);
-            $json = json_decode($json, true);
-            return $json['original'];
+            $body = $res->getBody();
+            $json = json_decode($body);
+            return $json;
         } catch(\Exception $e) {
             return response()->json(['error' => $e->getMessage()]);
         }
