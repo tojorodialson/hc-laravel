@@ -62,8 +62,8 @@ HC Laravel is open-source software licensed  **MIT Licensed**
 
 **Support**
 
-If you have any suggestion, open issue or you can contribute
+If you have any suggestion or if you use this application and if you like support opensource, don't forget button below
 
 
-If you like my project give me a **[coffee](https://www.patreon.com/tojorodialson)** 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J45B4PE) 
 
