@@ -8,12 +8,12 @@
     "authors": [
         {
             "name": "Tojo RODIALSON",
-            "email": "tojo.rodialson@encabox.com"
+            "email": "tojo@everabyte.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.1|^8.0"
+        "php": "^7.1|^8.0|^9.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0"
