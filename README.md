@@ -2,7 +2,7 @@
 
 HC Laravel is a package using hcaptcha for stopping bots ([hcaptcha.com](https://www.hcaptcha.com))
 
-This package support Laravel 6, 7 and 8.
+This package support Laravel 6, 7, 8 and 9.
 
 # Installation
 
